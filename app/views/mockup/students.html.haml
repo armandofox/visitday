@@ -1,0 +1,45 @@
+#inner{:style => 'height: 600px'}
+  #appointments.span-10
+    %h1 Desired Appointments
+    %p.highlight Drag to reorder list.  Roll over column names for explanation of each column.
+    %table
+      %thead
+        %tr
+          %td
+            %span{:title => 'Mandatory meeting'} !
+          %td 
+            %span{:title => 'Number of 15-minute slots for this student'} # Slots
+          %td
+            %span{:title => 'This should be an individual meeting'} 1:1?
+          %td Name
+      %tbody
+        - 10.times do |i|
+          %tr
+            %td= check_box_tag 'mandatory'
+            %td= select_tag 'nslots', options_for_select(1..4), :selected => 1
+            %td= check_box_tag 'one_on_one'
+            %td= h @students[i+10]
+
+  #students.span-6
+    %h1 Admits
+    %p.highlight Drag and drop students between admit list and appointment list.
+    %table
+      %thead
+      %tbody
+        - @students.each do |s|
+          %tr
+            %td= h(s)
+
+
+  #areas.span-3
+    %h1 Areas
+    %p.highlight Filter the admit list by area.
+    = link_to 'All', ''
+    = link_to 'None', ''
+    %br
+    - @areas.each do |a|
+      = check_box_tag a
+      %label{:for => a}= a
+      %br
+
+

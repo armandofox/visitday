@@ -1,0 +1,960 @@
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 14:46:27) [GET]
+
+ActionView::MissingTemplate (Missing template mockup/students.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 14:48:18) [GET]
+
+ActionView::MissingTemplate (Missing template mockup/students.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 14:48:27) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+ERROR: compiling _run_haml_app47views47layouts47application46html46haml RAISED compile error
+/Users/fox/Documents/fox/projects/visitday/app/views/layouts/application.html.haml:10: syntax error, unexpected tSYMBEG
+...(( stylesheet_link_tag 'ie'. :media => 'screen, projection'
+                              ^
+Function body:           def _run_haml_app47views47layouts47application46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :escape_html=>false, :format=>:xhtml, :preserve=>["textarea", "pre", "code"], :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>\n  <head>\n    #{
+
+
+
+
+_hamlout.adjust_tabs(2); _hamlout.format_script_false_false_false_false_false_true_false(( stylesheet_link_tag 'screen', :media => 'screen, projection'
+));}\n    #{_hamlout.format_script_false_false_false_false_false_true_false(( stylesheet_link_tag 'print',  :media => 'print'
+));}\n    <!--[if lt ie 8]>\n      #{
+
+_hamlout.adjust_tabs(1); _hamlout.format_script_false_false_false_false_false_true_false(( stylesheet_link_tag 'ie'. :media => 'screen, projection'
+));}\n    <![endif]-->\n    <title>#{
+_hamlout.format_script_false_true_false_false_false_true_false((h(controller.action_name.humanize)
+));}</title>\n  </head>\n  <body>\n    #{
+
+
+_hamlout.format_script_false_false_false_false_false_true_false(( yield
+));}\n  </body>\n</html>\n", -2, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/fox/Documents/fox/projects/visitday/app/views/layouts/application.html.haml:20:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:352:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/sass/plugin/rack.rb:41:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/debugger.rb:19:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/fox/Documents/fox/projects/visitday/app/views/layouts/application.html.haml:10: syntax error, unexpected tSYMBEG
+...(( stylesheet_link_tag 'ie'. :media => 'screen, projection'
+                              ^) on line #10 of app/views/layouts/application.html.haml:
+7:     = stylesheet_link_tag 'print',  :media => 'print'
+8:     
+9:     /[if lt ie 8]
+10:       = stylesheet_link_tag 'ie'. :media => 'screen, projection'
+11:       
+12:     %title= h(controller.action_name.humanize) 
+13:     
+
+    app/views/layouts/application.html.haml:20:in `compile!'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (67.5ms)
+Rendered rescues/_request_and_response (2.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 14:48:48) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:02:16) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+
+ActionView::TemplateError (undefined method `stringify_keys' for 1:Fixnum) on line #13 of app/views/mockup/students.html.haml:
+10:       - 10.times do |i|
+11:         %tr
+12:           %td= check_box_tag 'mandatory'
+13:           %td= select_tag 'nslots', options_for_select(1..4), 1
+14:           %td Student Name #{i}
+
+    app/views/mockup/students.html.haml:13:in `_run_haml_app47views47mockup47students46html46haml'
+    app/views/mockup/students.html.haml:10:in `times'
+    app/views/mockup/students.html.haml:10:in `_run_haml_app47views47mockup47students46html46haml'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (87.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:02:26) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:03:34) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+
+ActionView::TemplateError (No expansion found for :mockup) on line #1 of app/views/mockup/students.html.haml:
+1: = stylesheet_link_tag :mockup
+2: #student_list
+3:   %table
+4:     %thead
+
+    app/views/mockup/students.html.haml:1:in `_run_haml_app47views47mockup47students46html46haml'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (72.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:03:41) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:10:01) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 26ms (View: 23, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:10:16) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 107ms (View: 105, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:10:21) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 24ms (View: 22, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:10:47) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 25ms (View: 23, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:11:33) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 27ms (View: 25, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:11:38) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:25:56) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #16 of app/views/mockup/students.html.haml:
+13:           %td= check_box_tag 'mandatory'
+14:           %td= select_tag 'nslots', options_for_select(1..4), :selected => 1
+15:           %td= check_box_tag 'one_on_one'
+16:           %td= h @students[i]
+17: 
+18: #buttons.span-2
+19:   = submit_tag '<<'
+
+    app/views/mockup/students.html.haml:16:in `_run_haml_app47views47mockup47students46html46haml'
+    app/views/mockup/students.html.haml:11:in `times'
+    app/views/mockup/students.html.haml:11:in `_run_haml_app47views47mockup47students46html46haml'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (56.2ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:27:42) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]) on line #16 of app/views/mockup/students.html.haml:
+13:           %td= check_box_tag 'mandatory'
+14:           %td= select_tag 'nslots', options_for_select(1..4), :selected => 1
+15:           %td= check_box_tag 'one_on_one'
+16:           %td= h @students[i]
+17: 
+18: #buttons.span-2
+19:   = submit_tag '<<'
+
+    app/views/mockup/students.html.haml:16:in `_run_haml_app47views47mockup47students46html46haml'
+    app/views/mockup/students.html.haml:11:in `times'
+    app/views/mockup/students.html.haml:11:in `_run_haml_app47views47mockup47students46html46haml'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (58.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:28:25) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #30 of app/views/mockup/students.html.haml:
+27:   = link_to 'All', ''
+28:   = link_to 'None', ''
+29:   %br
+30:   - @areas.each do |a|
+31:     = check_box_tag a
+32:     %label{:for => a}= a
+33:     %br
+
+    app/views/mockup/students.html.haml:30:in `_run_haml_app47views47mockup47students46html46haml'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (50.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:28:45) [GET]
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+Rendering template within layouts/application
+Rendering mockup/students
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #30 of app/views/mockup/students.html.haml:
+27:   = link_to 'All', ''
+28:   = link_to 'None', ''
+29:   %br
+30:   - @areas.each do |a|
+31:     = check_box_tag a
+32:     %label{:for => a}= a
+33:     %br
+
+    app/views/mockup/students.html.haml:30:in `_run_haml_app47views47mockup47students46html46haml'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (48.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:28:59) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #30 of app/views/mockup/students.html.haml:
+27:   = link_to 'All', ''
+28:   = link_to 'None', ''
+29:   %br
+30:   - @areas.each do |a|
+31:     = check_box_tag a
+32:     %label{:for => a}= a
+33:     %br
+
+    app/views/mockup/students.html.haml:30:in `_run_haml_app47views47mockup47students46html46haml'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (70.1ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:30:05) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 32ms (View: 28, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:31:11) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 42ms (View: 38, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:31:23) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 37ms (View: 33, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:31:42) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 130ms (View: 126, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:31:56) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:32:25) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 34ms (View: 31, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:40:16) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 39ms (View: 35, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:41:27) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+ERROR: compiling _run_haml_app47views47mockup47students46html46haml RAISED compile error
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+..."# Slots", :title => Number of 15-minute slots for this stud...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...e => Number of 15-minute slots for this student);_hamlout.pu...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...-minute slots for this student);_hamlout.push_text("        ...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... "1:1?", :title => This should be an individual meeting);_ha...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected ')', expecting kEND
+...ould be an individual meeting);_hamlout.push_text("        <...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:34: syntax error, unexpected kDO_BLOCK, expecting kEND
+ @areas.each do |a|;
+               ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:38: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47mockup47students46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :escape_html=>false, :format=>:xhtml, :preserve=>["textarea", "pre", "code"], :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<div class='span-10' id='appointments'>\n  <h1>Desired Appointments</h1>\n  <p class='highlight'>Drag to reorder list.  Roll over column names for explanation of each column.</p>\n  <table>\n    <thead>\n      <tr>\n        <td>\n          <span title='Mandatory meeting'>!</span>\n        </td>\n        <td>\n", 5, false);
+
+
+
+
+
+
+
+
+_hamlout.open_tag("span", false, true, false, false, {}, false, false, nil, "# Slots", :title => Number of 15-minute slots for this student);_hamlout.push_text("        </td>\n        <td>\n", 0, false);
+
+_hamlout.open_tag("span", false, true, false, false, {}, false, false, nil, "1:1?", :title => This should be an individual meeting);_hamlout.push_text("        </td>\n        <td>Name</td>\n      </tr>\n    </thead>\n    <tbody>\n", -2, false);
+
+
+ 10.times do |i|;
+_hamlout.push_text("      <tr>\n        <td>#{
+_hamlout.adjust_tabs(2); _hamlout.format_script_false_true_false_false_false_true_false((check_box_tag 'mandatory'
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((select_tag 'nslots', options_for_select(1..4), :selected => 1
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((check_box_tag 'one_on_one'
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((h @students[i+10]
+));}</td>\n      </tr>\n", -1, false);
+end;_hamlout.push_text("    </tbody>\n  </table>\n</div>\n<div class='span-6' id='students'>\n  <h1>Admits</h1>\n  <p class='highlight'>Drag and drop students between admit list and appointment list.</p>\n  #{
+
+
+_hamlout.adjust_tabs(-2); _hamlout.format_script_false_false_false_false_false_true_false(( select_tag 'students', options_for_select(@students), :multiple => true
+));}\n</div>\n<div class='span-2' id='areas'>\n  <h1>Areas</h1>\n  <p class='highlight'>Filter the admit list by area.</p>\n  #{
+
+
+
+
+_hamlout.format_script_false_false_false_false_false_true_false(( link_to 'All', ''
+));}\n  #{_hamlout.format_script_false_false_false_false_false_true_false(( link_to 'None', ''
+));}\n  <br />\n", 0, false);
+ @areas.each do |a|;
+_hamlout.push_text("  #{_hamlout.format_script_false_false_false_false_false_true_false(( check_box_tag a
+));}\n", 0, false);_hamlout.open_tag("label", false, true, false, false, {}, false, false, nil, nil, :for => a);_hamlout.push_text("#{_hamlout.format_script_false_true_false_false_false_true_false((a
+));}</label>\n  <br />\n", 0, false);end;_hamlout.push_text("</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:38:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/sass/plugin/rack.rb:41:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/debugger.rb:19:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+..."# Slots", :title => Number of 15-minute slots for this stud...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...e => Number of 15-minute slots for this student);_hamlout.pu...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...-minute slots for this student);_hamlout.push_text("        ...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... "1:1?", :title => This should be an individual meeting);_ha...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected ')', expecting kEND
+...ould be an individual meeting);_hamlout.push_text("        <...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:34: syntax error, unexpected kDO_BLOCK, expecting kEND
+ @areas.each do |a|;
+               ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:38: syntax error, unexpected kENSURE, expecting $end) on line #10 of app/views/mockup/students.html.haml:
+7:         %td
+8:           %span{:title => 'Mandatory meeting'} !
+9:         %td 
+10:           %span{:title => Number of 15-minute slots for this student} # Slots
+11:         %td
+12:           %span{:title => This should be an individual meeting} 1:1?
+13:         %td Name
+
+    app/views/mockup/students.html.haml:38:in `compile!'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (142.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:41:36) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+ERROR: compiling _run_haml_app47views47mockup47students46html46haml RAISED compile error
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...\# Slots", :title => Number of 15-minute slots for this stud...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...e => Number of 15-minute slots for this student);_hamlout.pu...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...-minute slots for this student);_hamlout.push_text("        ...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... "1:1?", :title => This should be an individual meeting);_ha...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected ')', expecting kEND
+...ould be an individual meeting);_hamlout.push_text("        <...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:34: syntax error, unexpected kDO_BLOCK, expecting kEND
+ @areas.each do |a|;
+               ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:38: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_haml_app47views47mockup47students46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :escape_html=>false, :format=>:xhtml, :preserve=>["textarea", "pre", "code"], :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<div class='span-10' id='appointments'>\n  <h1>Desired Appointments</h1>\n  <p class='highlight'>Drag to reorder list.  Roll over column names for explanation of each column.</p>\n  <table>\n    <thead>\n      <tr>\n        <td>\n          <span title='Mandatory meeting'>!</span>\n        </td>\n        <td>\n", 5, false);
+
+
+
+
+
+
+
+
+_hamlout.open_tag("span", false, true, false, false, {}, false, false, nil, "\\# Slots", :title => Number of 15-minute slots for this student);_hamlout.push_text("        </td>\n        <td>\n", 0, false);
+
+_hamlout.open_tag("span", false, true, false, false, {}, false, false, nil, "1:1?", :title => This should be an individual meeting);_hamlout.push_text("        </td>\n        <td>Name</td>\n      </tr>\n    </thead>\n    <tbody>\n", -2, false);
+
+
+ 10.times do |i|;
+_hamlout.push_text("      <tr>\n        <td>#{
+_hamlout.adjust_tabs(2); _hamlout.format_script_false_true_false_false_false_true_false((check_box_tag 'mandatory'
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((select_tag 'nslots', options_for_select(1..4), :selected => 1
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((check_box_tag 'one_on_one'
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((h @students[i+10]
+));}</td>\n      </tr>\n", -1, false);
+end;_hamlout.push_text("    </tbody>\n  </table>\n</div>\n<div class='span-6' id='students'>\n  <h1>Admits</h1>\n  <p class='highlight'>Drag and drop students between admit list and appointment list.</p>\n  #{
+
+
+_hamlout.adjust_tabs(-2); _hamlout.format_script_false_false_false_false_false_true_false(( select_tag 'students', options_for_select(@students), :multiple => true
+));}\n</div>\n<div class='span-2' id='areas'>\n  <h1>Areas</h1>\n  <p class='highlight'>Filter the admit list by area.</p>\n  #{
+
+
+
+
+_hamlout.format_script_false_false_false_false_false_true_false(( link_to 'All', ''
+));}\n  #{_hamlout.format_script_false_false_false_false_false_true_false(( link_to 'None', ''
+));}\n  <br />\n", 0, false);
+ @areas.each do |a|;
+_hamlout.push_text("  #{_hamlout.format_script_false_false_false_false_false_true_false(( check_box_tag a
+));}\n", 0, false);_hamlout.open_tag("label", false, true, false, false, {}, false, false, nil, nil, :for => a);_hamlout.push_text("#{_hamlout.format_script_false_true_false_false_false_true_false((a
+));}</label>\n  <br />\n", 0, false);end;_hamlout.push_text("</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:38:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/sass/plugin/rack.rb:41:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/debugger.rb:19:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...\# Slots", :title => Number of 15-minute slots for this stud...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...e => Number of 15-minute slots for this student);_hamlout.pu...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:10: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+...-minute slots for this student);_hamlout.push_text("        ...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... "1:1?", :title => This should be an individual meeting);_ha...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected ')', expecting kEND
+...ould be an individual meeting);_hamlout.push_text("        <...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:34: syntax error, unexpected kDO_BLOCK, expecting kEND
+ @areas.each do |a|;
+               ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:38: syntax error, unexpected kENSURE, expecting $end) on line #10 of app/views/mockup/students.html.haml:
+7:         %td
+8:           %span{:title => 'Mandatory meeting'} !
+9:         %td 
+10:           %span{:title => Number of 15-minute slots for this student} \# Slots
+11:         %td
+12:           %span{:title => This should be an individual meeting} 1:1?
+13:         %td Name
+
+    app/views/mockup/students.html.haml:38:in `compile!'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (78.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:41:49) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+ERROR: compiling _run_haml_app47views47mockup47students46html46haml RAISED compile error
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... "1:1?", :title => This should be an individual meeting);_ha...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected ')', expecting kEND
+...ould be an individual meeting);_hamlout.push_text("        <...
+                              ^
+Function body:           def _run_haml_app47views47mockup47students46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;begin;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:ugly=>false, :escape_html=>false, :format=>:xhtml, :preserve=>["textarea", "pre", "code"], :encoding=>nil, :attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"]});_erbout = _hamlout.buffer;__in_erb_template = true;;_hamlout.push_text("<div class='span-10' id='appointments'>\n  <h1>Desired Appointments</h1>\n  <p class='highlight'>Drag to reorder list.  Roll over column names for explanation of each column.</p>\n  <table>\n    <thead>\n      <tr>\n        <td>\n          <span title='Mandatory meeting'>!</span>\n        </td>\n        <td>\n          <span title='Number of 15-minute slots for this student'># Slots</span>\n        </td>\n        <td>\n", 5, false);
+
+
+
+
+
+
+
+
+
+
+_hamlout.open_tag("span", false, true, false, false, {}, false, false, nil, "1:1?", :title => This should be an individual meeting);_hamlout.push_text("        </td>\n        <td>Name</td>\n      </tr>\n    </thead>\n    <tbody>\n", -2, false);
+
+
+ 10.times do |i|;
+_hamlout.push_text("      <tr>\n        <td>#{
+_hamlout.adjust_tabs(2); _hamlout.format_script_false_true_false_false_false_true_false((check_box_tag 'mandatory'
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((select_tag 'nslots', options_for_select(1..4), :selected => 1
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((check_box_tag 'one_on_one'
+));}</td>\n        <td>#{_hamlout.adjust_tabs(1); _hamlout.format_script_false_true_false_false_false_true_false((h @students[i+10]
+));}</td>\n      </tr>\n", -1, false);
+end;_hamlout.push_text("    </tbody>\n  </table>\n</div>\n<div class='span-6' id='students'>\n  <h1>Admits</h1>\n  <p class='highlight'>Drag and drop students between admit list and appointment list.</p>\n  #{
+
+
+_hamlout.adjust_tabs(-2); _hamlout.format_script_false_false_false_false_false_true_false(( select_tag 'students', options_for_select(@students), :multiple => true
+));}\n</div>\n<div class='span-2' id='areas'>\n  <h1>Areas</h1>\n  <p class='highlight'>Filter the admit list by area.</p>\n  #{
+
+
+
+
+_hamlout.format_script_false_false_false_false_false_true_false(( link_to 'All', ''
+));}\n  #{_hamlout.format_script_false_false_false_false_false_true_false(( link_to 'None', ''
+));}\n  <br />\n", 0, false);
+ @areas.each do |a|;
+_hamlout.push_text("  #{_hamlout.format_script_false_false_false_false_false_true_false(( check_box_tag a
+));}\n", 0, false);_hamlout.open_tag("label", false, true, false, false, {}, false, false, nil, nil, :for => a);_hamlout.push_text("#{_hamlout.format_script_false_true_false_false_false_true_false((a
+));}</label>\n  <br />\n", 0, false);end;_hamlout.push_text("</div>\n", -1, false);_erbout;ensure;@haml_buffer = @haml_buffer.upper;end;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:40:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/template.rb:205:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:265:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:348:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_view/base.rb:262:in `render_without_haml'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:936:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.8/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/flash.rb:151:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/routing/route_set.rb:438:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/haml-3.0.13/rails/../lib/sass/plugin/rack.rb:41:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/debugger.rb:19:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:67:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.1.0/lib/rack/handler/mongrel.rb:38:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.8/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected tIDENTIFIER, expecting kDO or '{' or '('
+... "1:1?", :title => This should be an individual meeting);_ha...
+                              ^
+/Users/fox/Documents/fox/projects/visitday/app/views/mockup/students.html.haml:12: syntax error, unexpected ')', expecting kEND
+...ould be an individual meeting);_hamlout.push_text("        <...
+                              ^) on line #12 of app/views/mockup/students.html.haml:
+9:         %td 
+10:           %span{:title => 'Number of 15-minute slots for this student'} # Slots
+11:         %td
+12:           %span{:title => This should be an individual meeting} 1:1?
+13:         %td Name
+14:     %tbody
+15:       - 10.times do |i|
+
+    app/views/mockup/students.html.haml:40:in `compile!'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (3.0.13) rails/./lib/sass/plugin/rack.rb:41:in `call'
+
+Rendered rescues/_trace (157.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:41:56) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 41ms (View: 37, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:43:47) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 38ms (View: 34, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:44:57) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 39ms (View: 35, DB: 0) | 200 OK [http://localhost/students]
+
+
+Processing MockupController#students (for 127.0.0.1 at 2010-12-18 15:45:00) [GET]
+Rendering template within layouts/application
+Rendering mockup/students
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://localhost/students]

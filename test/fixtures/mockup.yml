@@ -1,0 +1,247 @@
+areas:
+ - AI
+ - BIO
+ - COMNET
+ - ARC
+ - CIR
+ - DBMS
+ - DES
+ - EDUC
+ - ENE
+ - GR
+ - HCI
+ - INC
+ - MEMS
+ - OSNT
+ - PHY
+ - PS
+ - SCI
+ - SEC
+ - SP
+ - THY
+
+students:
+ - Jacob Abernethy
+ - Stephan Adams
+ - Alekh Agarwal
+ - Sameer Agarwal
+ - Devdatta Akhawe
+ - Ilge Akkaya
+ - Louis Poblete Alarcon
+ - Sara Alspaugh
+ - Gautam Altekar
+ - Peter Alvaro
+ - Arash Ali Amini
+ - Ganesh Ananthanarayanan
+ - Michael Anderson
+ - James Andrews
+ - Michael Armbrust
+ - Gilad Arnold
+ - Nimar S Arora
+ - Stanley Seunghoon Baek
+ - Grey Ballard
+ - Mohit Bansal
+ - Jonathan Barron
+ - Eric Battenberg
+ - Scott Beamer
+ - Yu Ben
+ - Yahel Ben-David
+ - John Bethencourt
+ - Will Biederman
+ - Sarah Bird
+ - Alexandre Bouchard-Cote
+ - Anupama Bowonder
+ - Guy Bresler
+ - Dai Bui
+ - Sam Burden
+ - David Burkett
+ - Jacob Burnim
+ - Kevin Canini
+ - Andy Carle
+ - Robert Carroll
+ - Bryan Catanzaro
+ - Christopher Celio
+ - Andrew Chan
+ - Keng-hao Chang
+ - Shaunak Chatterjee
+ - Andrew Chemistruck
+ - Kevin Zhijie Chen
+ - Kuang Chen
+ - Eric Chin
+ - Erika Chin
+ - Chia Yuan Cho
+ - Jike Chong
+ - Mosharaf Chowdhury
+ - Derrick Coetzee
+ - Neil Conway
+ - Henry Cook
+ - James Cook
+ - Arel Lee Cordero
+ - Kristal Curtis
+ - Stephen Dawson-Haggerty
+ - Anindya De
+ - Yasemin Demir
+ - John Sturdy DeNero
+ - Navdeep Dhillon
+ - Yida Duan
+ - John Duchi
+ - Greg Durrett
+ - Gage Eads
+ - Onur Ergen
+ - Andrey Ermolinskiy
+ - Arlo Faria
+ - Adrienne Porter Felt
+ - Matthew Finifter
+ - John Finn
+ - Andrew Fisher
+ - Shanna-Shaye Forbes
+ - Lisa L Fowler
+ - Rafael Frongillo
+ - Fernando L. Garcia Bermudez
+ - Brian Christopher Gawalt
+ - Greg Gibeling
+ - Daniel Jacob Gillick
+ - Andrew Godbehere
+ - Naveen Goela
+ - Dave Golland
+ - Ekaterina Gonina
+ - Humberto Gonzalez
+ - Pulkit Grover
+ - Chunhui Gu
+ - Assane Gueye
+ - Meghdad Hajimorad
+ - Steve Hanna
+ - Nicholas Hay
+ - Florian Hecht
+ - Warren Hoburg
+ - Luqman Hodgkinson
+ - Aude Hofleitner
+ - Richard Edward Honicky
+ - Justin Hsia
+ - Fu-Chung Huang
+ - Timothy Hunter
+ - Zachery Jacobson
+ - Sagar Jain
+ - Allison Janoch
+ - Susmit Kumar Jha
+ - Yangqing Jia
+ - Mervin John
+ - Mark Johnson
+ - Milos Jorgovanovic
+ - Sudeep Kamath
+ - Amir Ashraf Kamil
+ - Hongki Kang
+ - Sergey Karayev
+ - Branko Kerkez
+ - Sung Hwan Kim
+ - Kenrick Kin
+ - Adam Garnet Kirk
+ - Bonnie Kirkpatrick
+ - Nathan Boyd Kitchen
+ - Mitchell Kline
+ - Nicholas Knight
+ - Nicholas Kong
+ - Andrew Konwinski
+ - Andrew Krioukov
+ - Jonathan K Kummerfeld
+ - Hanh-Phuc Le
+ - Wenchao Li
+ - Percy Shuo Liang
+ - Ben Lickly
+ - Chung-Wei Lin
+ - Isaac Liu
+ - Darsen Lu
+ - Fanglu Lu
+ - Yue Lu
+ - Lester Mackey
+ - Subhransu Maji
+ - Cristian Marcu
+ - Michael Mark
+ - Mark Lee McKelvin Jr
+ - Adam Megacz
+ - Adrian Mettler
+ - Kurt Miller
+ - Owen Miller
+ - Prashanth Mohan
+ - David Moore
+ - Mark Murphy
+ - Venkatesan N E
+ - Vinayak Nagpal
+ - Thura Lin Naing
+ - Sahand N Negahban
+ - Blaine Nelson
+ - Pierluigi Nuzzo
+ - Barlas Oguz
+ - Dapo Omidiran
+ - Jorge Ortiz
+ - Chang Seo Park
+ - Jemin Park
+ - Gia Vinh Anh Pham
+ - George Pierrakos
+ - Harold Pimentel
+ - Lucian Popa
+ - Daniel Ciprian Preda
+ - Alberto Alessandro Angelo Puggelli
+ - Ariel Rabkin
+ - Gireeja Ranade
+ - Barret Rhoden
+ - Jason Riedy
+ - Adam Roberts
+ - Justin Samuel
+ - Raluca Sauciuc
+ - Meromit Schuster
+ - Yusef Shafi
+ - Neel Shah
+ - David Sheffield
+ - Justine Sherry
+ - Changhwan Shin
+ - Aditi Shrikumar Muralidharan
+ - Yaron Singer
+ - Mason Smith
+ - Edgar Solomonik
+ - Hyun Oh Song
+ - Matthew Spencer
+ - Isabelle Stanton
+ - Alexandre Stauffer
+ - Emil Stefanov
+ - Avital Steinitz
+ - Dusan Stepanovic
+ - Jimmy Zhigang Su
+ - Changho Suh
+ - Erin Summers
+ - David Qin Sun
+ - Xuening Sun
+ - Narayanan Sundaram
+ - Toshitake Takahashi
+ - Jay Taneja
+ - Qian Ying Tang
+ - Anuj Tewari
+ - Chintan Thakkar
+ - Andrew Tinka
+ - Beth Trushkowsky
+ - Gregory Valiant
+ - Matthias Vallentin
+ - Ram Vasudevan
+ - Thomas Vidick
+ - Oriol Vinyals
+ - Vasily Volkov
+ - Andrew Wang
+ - Daisy Zhe Wang
+ - Andrew Waterman
+ - Thomas Watson
+ - Fabian Wauthier
+ - Kevin Weekly
+ - Joel Weinberger
+ - Victor Shih-Hua Wen
+ - Christopher Wilkens
+ - Wesley Jay Willett
+ - Jason Wolfe
+ - Kristen Ann Woyach
+ - John Wyrwas
+ - Reynold Shi Xin
+ - Nuo Xu
+ - Shijing Yao
+ - Matei Zaharia
+ - Hao Zhang
+ - Youwei Zhang
+ - Jia Zou
