@@ -1,1 +1,2 @@
 gem 'haml'
+gem 'rails', '2.3.8'
