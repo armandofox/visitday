@@ -1,0 +1,24 @@
+%h1 My Availability
+%p.highlight Check the times you are available, and whether you would be in a room other than your default meeting location.
+%p 
+  Maximum number of students per slot:
+  = select_tag 'max_per_slot', options_for_select(1..8)
+%p
+  Default building & room for meetings:
+  = text_field_tag 'room', '465 Soda', :size => 15
+%p
+  = link_to 'Check all', ''
+  \|
+  = link_to 'Check none', ''
+%table
+  %thead
+    %tr
+      %th Time
+      %th Avail?
+      %th Other room?
+  %tbody
+    - (0..50).map { |t| Time.parse("10:00am") + (t*15).minutes }.each do |time|
+      %tr
+        %td= time.strftime("%H:%M")
+        %td= check_box_tag 'avail', '', nil, :disabled => (time.between?(Time.parse("12:00pm"), Time.parse("1:30pm")))
+        %td= text_field_tag 'room', '', :size => 15

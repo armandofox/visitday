@@ -5,14 +5,17 @@
   %head
     = stylesheet_link_tag 'screen', :media => 'screen, projection'
     = stylesheet_link_tag 'print',  :media => 'print'
-    
     /[if lt ie 8]
       = stylesheet_link_tag 'ie', :media => 'screen, projection'
-      
+    = stylesheet_link_tag 'default'
+
     %title= h(controller.action_name.humanize) 
     
   %body
-
-    = yield
+    #outer
+      #login_bar= render :partial => 'layouts/login_bar'
+      #nav_bar= render :partial => 'layouts/nav_bar'
+      #inner
+        = yield
 
 

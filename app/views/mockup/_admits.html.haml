@@ -1,0 +1,9 @@
+%h1 Admits
+%p.highlight Drag and drop students between admit list and appointment list.
+%table
+  %thead
+  %tbody
+    - @students.each do |s|
+      %tr
+        %td= h(s)
+
