@@ -20,6 +20,148 @@ areas:
  - SP
  - THY
 
+mandatory:
+  Ras Bodik: Lisa Simpson
+  Armando Fox: Homer Simpson
+  Eric Brewer: Maggie Simpson
+
+unsatisfied:
+ - Stephan Adams
+ - Gautam Altekar
+ - Bryan Catanzaro
+
+faculty:
+ - Pieter Abbeel
+ - Maneesh Agrawala
+ - Elad Alon
+ - Venkat Anantharam
+ - Murat Arcak
+ - Krste Asanović
+ - David T. Attwood
+ - Babak Ayazifar
+ - Ahmad Bahai
+ - Ruzena Bajcsy
+ - Brian A. Barsky
+ - Peter Bartlett
+ - Ras Bodik
+ - Jeffrey Bokor
+ - Bernhard Boser
+ - Robert K. Brayton
+ - Eric Brewer
+ - Thomas F. Budinger
+ - John F. Canny
+ - Jose M. Carmena
+ - Constance Chang-Hasnain
+ - Nathan W. Cheung
+ - John Chuang
+ - Michael J. Clancy
+ - Phillip Colella
+ - Steven Conolly
+ - David E. Culler
+ - Trevor Darrell
+ - James Demmel
+ - Stephen E. Derenzo
+ - Laurent El Ghaoui
+ - Ronald S. Fearing
+ - Armando Fox
+ - Michael Franklin
+ - Robert Full
+ - Dan Garcia
+ - Michael Gastpar
+ - Ken Goldberg
+ - Susan L. Graham
+ - Paul R. Gray
+ - Thomas Griffiths
+ - Björn Hartmann
+ - Brian K. Harvey
+ - Marti Hearst
+ - Joseph M. Hellerstein
+ - Thomas A. Henzinger
+ - Paul N. Hilfinger
+ - Chenming Hu
+ - Jeremy Huddleston
+ - Ali Javey
+ - Michael Jordan
+ - Anthony D. Joseph
+ - Ivan P. Kaminow
+ - Richard M. Karp
+ - Randy H. Katz
+ - Kurt Keutzer
+ - Tsu-Jae King Liu
+ - Daniel Klein
+ - John D. Kubiatowicz
+ - Andreas Kuehlmann
+ - Edward A. Lee
+ - Allan J. Lichtenberg
+ - Michael A. Lieberman
+ - Michael Lustig
+ - Michel Maharbiz
+ - Jitendra Malik
+ - Robert G. Meyer
+ - Nelson Morgan
+ - Elchanan Mossel
+ - Richard S. Muller
+ - George Necula
+ - Andrew R. Neureuther
+ - Clark Nguyen
+ - Ali Niknejad
+ - Borivoje Nikolic
+ - James O'Brien
+ - William G. Oldham
+ - Bruno Olshausen
+ - Lior Pachter
+ - Christos Papadimitriou
+ - Abhay Parekh
+ - David A. Patterson
+ - Vern Paxson
+ - Albert Pisano
+ - Kristofer Pister
+ - Elijah Polak
+ - Kameshwar Poolla
+ - Jan M. Rabaey
+ - Ravi Ramamoorthi
+ - Kannan Ramchandran
+ - Satish Rao
+ - Jaijeet Roychowdhury
+ - Stuart J. Russell
+ - Anant Sahai
+ - Sayeef Salahuddin
+ - Seth R. Sanders
+ - Alberto L. Sangiovanni-Vincentelli
+ - S. Shankar Sastry
+ - Koushik Sen
+ - Carlo H. Séquin
+ - Sanjit A. Seshia
+ - Scott Shenker
+ - Jonathan Shewchuk
+ - Alistair Sinclair
+ - Dawn Song
+ - Yun S. Song
+ - Costas J. Spanos
+ - Ion Stoica
+ - Bernd Sturmfels
+ - Vivek Subramanian
+ - Claire Tomlin
+ - Luca Trevisan
+ - David Tse
+ - Doug Tygar
+ - Theodore Van Duzer
+ - Pravin Varaiya
+ - Umesh Vazirani
+ - David Wagner
+ - Martin Wainwright
+ - Jean Walrand
+ - John Wawrzynek
+ - William J. Welch
+ - Richard M. White
+ - Adam Wolisz
+ - Ming C. Wu
+ - Eli Yablonovitch
+ - Katherine A. Yelick
+ - Bin Yu
+ - Lotfi A. Zadeh
+ - Avideh Zakhor
+
 students:
  - Jacob Abernethy
  - Stephan Adams

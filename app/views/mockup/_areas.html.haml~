@@ -3,7 +3,7 @@
 = link_to 'All', ''
 = link_to 'None', ''
 %br
-- @params['areas'].each do |a|
+- @areas.each do |a|
   = check_box_tag a
   %label{:for => a}= a
   %br

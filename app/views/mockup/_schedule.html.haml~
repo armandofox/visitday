@@ -1,0 +1,17 @@
+%h2 Current Schedule
+= submit_tag 'Generate New'
+= submit_tag 'Export All Faculty Schedules'
+= submit_tag 'Export All Admit Schedules'
+
+%table
+  %thead
+    %tr
+      %th Faculty
+      - (0..27).each do |min|
+        %th= (Time.parse("10:00am") + (15*min).minutes).strftime("%H:%M")
+  %tbody
+    - @params['faculty'].each do |prof|
+      %tr
+        %td= h(prof)
+        - 28.times do
+          %td

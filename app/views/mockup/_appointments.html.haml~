@@ -18,5 +18,5 @@
         %td= check_box_tag 'mandatory'
         %td= select_tag 'nslots', options_for_select(1..4), :selected => 1
         %td= check_box_tag 'one_on_one'
-        %td= h @params['students'][i+10]
+        %td= h @students[i+10]
 

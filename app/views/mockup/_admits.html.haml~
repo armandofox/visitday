@@ -3,7 +3,7 @@
 %table
   %thead
   %tbody
-    - @params['students'].each do |s|
+    - @students.each do |s|
       %tr
         %td= h(s)
 
